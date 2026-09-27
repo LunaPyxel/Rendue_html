@@ -1,0 +1,128 @@
+body {
+    background-image: url(Images/Backgroundtextur.webp);
+    background-repeat: repeat;
+    width: 100vws;
+}
+
+h1 {
+    display: flex;
+    justify-self: center;
+    color: white;
+    background-color: rgb(42, 41, 41);
+    border-color: white;
+    height: 100px;
+    width: 600px;
+    font-size: xx-large;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.img-style {
+    height: 250px;
+    width: 250px;
+    border-radius: 9999px;
+    border-style: double;
+    padding: 0.5vw;
+    border-color: white;
+}
+.img-style:hover {
+    height: 300px;
+    width: 300px;
+}
+.Div_01 {
+    display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+.Div_02 {
+    display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+.texts {
+    margin: 3%;
+    width: 400px;
+    background-color: rgb(42, 41, 41);
+    border-radius: 4%;
+    border-width: 5px;
+    color: rgb(253, 253, 253);
+    border: 0.5vw;
+    border-style: solid;
+    background-image: url(Images/Intro.webp);
+    background-size: cover;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+}
+
+.locust_image {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 9999999999999px;
+    display: flex;
+        justify-self: center;
+        align-items: center;
+}
+.locust_image:hover {
+    animation: spin 2s infinite linear;
+}
+.MonstersList_Title {
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 10%;
+    background-image: url(Images/WOOD.webp);
+    background-repeat: repeat;
+    display: flex;
+        justify-content: center;
+        justify-self: center;
+}
+.list_monster {
+    margin: -1%;
+    background-color: rgb(42, 41, 41);
+    width: 600px;
+    height: 100px;
+    border-radius: 1vw;
+    background-image: url(Images/WOOD.webp);
+    background-repeat: repeat;
+    filter: brightness(0.9);
+    display: flex;
+        justify-content: center;
+        justify-self: center;
+        flex-direction: row;
+        align-items: center;
+}
+footer {
+    margin: 10%;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    border-color: white;
+    border: 1vw;
+    background-image: url(Images/WOOD.webp);
+    background-repeat: repeat;
+    filter: brightness(0.9);
+    display: flex;
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+}
+
+.oswald_uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 16;
+  font-style: normal;
+}
+@keyframes spin {
+    0%{
+        transform: rotateY(0);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
